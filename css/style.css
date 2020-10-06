@@ -1,0 +1,408 @@
+html{
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: "Montserrat","Tahoma",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+img{
+	max-width: 100%;
+}
+
+.list-reset{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.main-body{
+    background: linear-gradient(268.03deg, #8E1DD1 0.3%, #8466FB 90.62%);
+}
+
+.main-wrapper-content-cell {
+    padding: 0px 10px 0 !important;
+}
+
+.sub-logo{
+    position: absolute;
+    top: 140px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+/* -------header */
+
+.header{
+    margin-bottom: 200px;
+}
+
+.background-color-body{
+    padding-top: 52px;
+    background-image: url("../img/OBJECTS.svg");
+    background-size: 83%;
+    background-position: 15% 0%;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 50px;
+}
+
+.header-menu{
+    display: flex;
+    color: #ffffff;
+}
+
+.header-menu-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.header-btn{
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-weight: 400px;
+}
+
+.catalog{
+    display: block;
+    position: absolute;
+    top: 185px;
+    left: 0;
+    top: 280px;
+}
+
+.catalog-list-item:not(:last-child){
+    margin-bottom: 50px;
+}
+
+.catalog-link{
+    font-size: #000000;
+    font-weight: 400;
+}
+
+.active-link{
+    color: #644189;
+}
+
+/*--------main header */
+.main-logo{
+    width: 231px;
+    height: 91px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cacaca;
+    margin-top: 55px;
+}
+
+.header-main-container{
+    display: flex;
+    align-items: center;
+}
+
+.position-header{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.parent{
+    padding-left: 40px;
+    position: relative;
+    width: 100%;
+    height: 255px;
+    background: linear-gradient(#8E1DD1 0.3%, #8466FB 90.62%);
+    border-radius: 0 50px 0 0;
+    padding-bottom: 92px;
+}
+
+.child{
+    width: 1150px;
+    position: absolute;
+    background-color: #ffffff;
+    height: 115px;
+    top: 140px;
+    border-radius: 49px 49px 0 0;
+    text-align: center;
+}
+
+.header-main-menu{
+    display: flex;
+}
+
+.link-main-menu{
+    color: #ffffff;
+}
+
+.header-main-menu-item:not(:last-child){
+    margin-right: 40px;
+}
+
+.btn-main-header{
+    position: absolute;
+    right: 80px;
+}
+
+.btn-notification{
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+    background: url("../img/note.svg") no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.btn-personal-cabinet{
+    width: 30px;
+    height: 30px;
+    background: url("../img/personal-cabinet.svg") no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.constructor-caption{
+    font-size: 48px;
+    font-weight: 500px;
+    font-style: normal;
+    margin-bottom: -10px;
+}
+
+.constructor-text{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+
+/* ----------main */
+
+.main-position{
+   text-align: center;
+}
+
+.top-caption{
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.top-subtittle{
+    color: #ffffff;
+    width: 500px;
+    font-size: 24px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.main-link-start{
+    border-radius: 49px;
+    background-color: #ffffff;
+    color: #8E21D4;
+    padding: 20px 125px;
+}
+
+
+
+/* ----------stock-market */
+
+.information-people{
+    display: flex;
+    margin: 0 auto;
+    width: 1150px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+.image-profile{
+    border-radius: 50%;
+}
+
+.image-position{
+    margin-right: 50px;
+    width: 25%;
+}
+
+.reviews{
+    margin: 0 auto;
+    padding-left: 50px;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.reviews-text{
+    padding:20px 50px 20px 160px;
+    background: #F8F8F8;
+    border-radius: 27px;
+}
+
+.d::before{
+    content: " ";
+    float: left;
+    margin-left: -115px;
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(90deg, rgba(132, 103, 251, 0.5) 0%, rgba(142, 32, 211, 0.5) 100%);
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.info-position-name{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.subtitle{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.info-position-prof{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.info-position-description{
+    width: 400px;
+}
+
+.info-position{
+    width: 35%;
+    margin-right: 45px;
+}
+
+.info-position-effect-job{
+    font-size: 26px;
+    width: 115%;
+}
+
+.btn-marcket{
+    display: block;
+    background-color: #8466FB;
+    border-radius: 49px;
+    padding: 15px 100px;
+}
+
+.link-marcket-position{
+    padding-top: 50px;
+}
+
+.btn-accept{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.btn-next{
+    background: none;
+    border: 1px solid #8466FB;
+    color: #8466FB;
+}
+
+.reviews-caption{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.reviews-description{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+
+
+
+
+
+.list-deal{
+    display: flex;
+}
+
+.item-list-deal{
+    margin-right: 500px;
+}
+
+.item-text-position{
+    width: 700px;
+    float: right;
+    margin-top: 0;
+}
+
+.list-position{
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.item-text-position-services{
+    margin-top: -15px;
+}
+
+.item-list-deal-services{
+    margin-right: 257px;
+}
+
+.item-list-deal-result{
+    margin-right: 165px;
+}
+
+.deal-service{
+    margin-bottom: 30px;
+}
+
+.position-label{
+    margin-right: 115px;
+    width: 200px;
+}
+
+.position-label-price{
+    margin-right: 260px;
+}
+
+.color-left-col{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.color-left-col-price{
+    color: #FD2E00;
+}
+
+.price-deal{
+    margin-right: 200px;
+}
+
+.deal-btn{
+    color: #8466FB;
+    padding: 10px 25px;
+    border: 1px solid #8466FB;
+    border-radius: 49px;
+}
+
+.deal-btn-start{
+    margin-left: 25px;
+    background-color: #8466FB;
+    color: #ffffff;
+}
